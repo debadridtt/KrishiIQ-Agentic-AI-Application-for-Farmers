@@ -34,7 +34,7 @@ from pydub import AudioSegment
 # Streamlit config
 st.set_page_config(page_title="KrishiIQ | Crop Disease", page_icon="🌱")
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "idyllic-kit-466219-h5-51a1b0253c05.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "streamlit-user.json"
 
 if st.button("Back to Home"):
     st.switch_page("main_app.py")
